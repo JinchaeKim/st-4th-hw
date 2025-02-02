@@ -21,7 +21,7 @@ function BoxContainer() {
       {[0, 1, 2, 3, 4].map((index) => (
         <Box
           key={index}
-          $active={activeIndex === index}
+          active={activeIndex === index}
           onClick={() => handleClick(index)}
         />
       ))}
