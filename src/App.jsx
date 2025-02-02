@@ -1,4 +1,5 @@
 import "./App.css";
+import Router from "./shared/Router";
 
 function App() {
   /**
@@ -14,7 +15,8 @@ function App() {
     |-- App.jsx
    */
 
-  return <></>;
+  return <Router />;
+  // <h1>안녕</h1>;
 }
 
 export default App;
